@@ -17,7 +17,22 @@ If you intend to modify and further develop this workflow, fork this repository.
 
 ### Step 2: Configure workflow
 
-Configure the workflow according to your needs via editing the file `config.yaml`. Configure cluster settings in `cluster-config.json`
+Configure the workflow according to your needs via editing the file `config.yaml`. Configure cluster settings in `cluster-config.json`. Finally, if necessary want to run snakemake from a compute node using the provided `snakemake.sbatch` script, edit it accordingly.
+
+### Step 3: Prepare the environments
+
+Most of necessary software, including snakemake, can be installed using the `envs/general_environment.yaml` file. There may exist additional environments that snakemake may automatically switch to on a rule-by-rule basis that need to be installed.
+
+ ```
+ # create the general environment called rna_seq_processing from the provided yaml file
+ conda env create -f envs/general_environment.yaml
+ 
+ # activate the environment
+ conda activate rna_seq_processing
+ 
+ # create the conda environments specified in the workflow rules using snakemake
+ snakemake --use-conda --create-envs-only
+ ```
 
 ### Step 3: Execute workflow
 
