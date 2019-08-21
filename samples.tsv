@@ -1,0 +1,5 @@
+Sample	R1	R2
+S2_1uLSSIV	/project2/yangili1/bjf79/SequencingData/20190429_MPE-seq/LI-BF1-S2_S2_R1_001.fastq.gz	/project2/yangili1/bjf79/SequencingData/20190429_MPE-seq/LI-BF1-S2_S2_R2_001.fastq.gz
+4_cheRNA	/project2/yangili1/bjf79/SequencingData/20190429_MPE-seq/LI-BF1-S4_S4_R1_001.fastq.gz	/project2/yangili1/bjf79/SequencingData/20190429_MPE-seq/LI-BF1-S4_S4_R2_001.fastq.gz
+S5_Ampure	/project2/yangili1/bjf79/SequencingData/20190429_MPE-seq/LI-BF1-S5_S5_R1_001.fastq.gz	/project2/yangili1/bjf79/SequencingData/20190429_MPE-seq/LI-BF1-S5_S5_R2_001.fastq.gz
+S6_StandardRep2	/project2/yangili1/bjf79/SequencingData/20190429_MPE-seq/LI-BF1-S6_S6_R1_001.fastq.gz	/project2/yangili1/bjf79/SequencingData/20190429_MPE-seq/LI-BF1-S6_S6_R2_001.fastq.gz

@@ -1,0 +1,11 @@
+{
+  "__default__" :
+  {"partition" : "broadwl", "mem" : 4000, "n" : 1, "account":"pi-yangili1", "name" : "{rule}-{wildcards}", "logfile": "/dev/null"},
+
+  "STAR_make_index":
+  {"partition" : "bigmem2", "mem": 68000, "tasks-per-node": 5},
+
+  "STAR_alignment":
+  {"mem":58000, "tasks-per-node" :10 }
+}
+
