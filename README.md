@@ -17,7 +17,7 @@ If you intend to modify and further develop this workflow, fork this repository.
 
 ### Step 2: Configure workflow
 
-Configure the workflow according to your needs via editing the file `config.yaml`. Configure cluster settings in `cluster-config.json`. Finally, if necessary want to run snakemake from a compute node using the provided `snakemake.sbatch` script, edit it accordingly.
+Configure the workflow according to your needs via editing the file `config.yaml` and the `samples.tsv` files. Configure cluster settings in `cluster-config.json`. If you want to run snakemake from a compute node using the provided `snakemake.sbatch` script, edit it accordingly (specifically the account for submitting slurm jobs unless).
 
 ### Step 3: Prepare the environments
 
