@@ -21,7 +21,7 @@ Configure the workflow according to your needs via editing the file `config.yaml
 
 ### Step 3: Prepare the environments
 
-Most of necessary software, including snakemake, can be installed using the `envs/general_environment.yaml` file. There may exist additional environments that snakemake may automatically switch to on a rule-by-rule basis that need to be installed.
+Most of necessary software, including snakemake, can be installed with conda using the `envs/general_environment.yaml` file. There may exist additional environments that snakemake may automatically switch to on a rule-by-rule basis that need to be installed.
 
  ```
  # create the general environment called rna_seq_processing from the provided yaml file
