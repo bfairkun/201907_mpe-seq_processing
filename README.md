@@ -12,7 +12,10 @@
 
 ### Step 1: Install workflow
 
-If you simply want to use this workflow, clone the [latest release](https://github.com/bfairkun/201904_MPESeq).
+If you simply want to use this workflow, clone it:
+```
+git clone https://github.com/bfairkun/201907_mpe-seq_processing.git
+```
 If you intend to modify and further develop this workflow, fork this repository. Please consider providing any generally applicable modifications via a pull request.
 
 ### Step 2: Configure workflow
