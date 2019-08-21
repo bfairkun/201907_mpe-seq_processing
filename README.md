@@ -37,7 +37,7 @@ Most of necessary software, including snakemake, can be installed with conda usi
  snakemake --use-conda --create-envs-only
  ```
 
-### Step 3: Execute workflow
+### Step 4: Execute workflow
 
 Test your configuration by performing a dry-run via
 
